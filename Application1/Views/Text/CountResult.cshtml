@@ -1,0 +1,12 @@
+﻿@if (ViewBag.Number != null)
+{
+    <p>Count Result: @ViewBag.Number</p>
+}
+else
+{
+    <p>@ViewBag.Message</p>
+}
+
+<div>
+    <a asp-action="Index">Index</a>
+</div>

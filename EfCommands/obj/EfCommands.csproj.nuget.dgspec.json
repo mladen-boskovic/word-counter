@@ -1,0 +1,257 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\EfCommands\\EfCommands.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\BusinessLogic\\BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\BusinessLogic\\BusinessLogic.csproj",
+        "projectName": "BusinessLogic",
+        "projectPath": "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\mlade\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mlade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\mlade\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mlade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\EfCommands\\EfCommands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\EfCommands\\EfCommands.csproj",
+        "projectName": "EfCommands",
+        "projectPath": "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\EfCommands\\EfCommands.csproj",
+        "packagesPath": "C:\\Users\\mlade\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\EfCommands\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mlade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\BusinessLogic\\BusinessLogic.csproj"
+              },
+              "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\EfDataAccess\\EfDataAccess.csproj": {
+                "projectPath": "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\EfDataAccess\\EfDataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\EfDataAccess\\EfDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\EfDataAccess\\EfDataAccess.csproj",
+        "projectName": "EfDataAccess",
+        "projectPath": "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\EfDataAccess\\EfDataAccess.csproj",
+        "packagesPath": "C:\\Users\\mlade\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\EfDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mlade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\mlade\\Documents\\Visual Studio 2019\\Projects\\OrionInnovation\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
